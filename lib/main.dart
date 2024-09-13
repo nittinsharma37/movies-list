@@ -17,6 +17,7 @@ class MoviesApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Movie App',
       initialRoute: '/',
       getPages: [
