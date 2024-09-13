@@ -14,7 +14,7 @@
    git clone https://github.com/yourusername/digidastavej.git
 
 
-| ![Page](assets/screenshots/1.png) | ![Page](assets/screenshots/2.png) |
+| ![Page](assets/screenshots/11.png) | ![Page](assets/screenshots/22.png) |
 |------------------------------------------|------------------------------------------------------------|
 |
 ## Prerequisites
