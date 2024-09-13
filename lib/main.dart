@@ -19,6 +19,14 @@ class MoviesApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Movie App',
+      theme: ThemeData(
+        primaryColor: const Color(0xFFD7D7D7),
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xFFD7D7D7),
+          foregroundColor: Colors.black,
+        ),
+      ),
       initialRoute: '/',
       getPages: [
         GetPage(name: '/', page: () => const HomeScreen()),
